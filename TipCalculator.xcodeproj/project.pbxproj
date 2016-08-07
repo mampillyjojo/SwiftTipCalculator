@@ -59,7 +59,6 @@
 				19E775771D52E28C00BC47B7 /* Supporting Files */,
 				19E775641D52DDE800BC47B7 /* ViewController.swift */,
 				19E775661D52DDE800BC47B7 /* Main.storyboard */,
-				19E7756C1D52DDE800BC47B7 /* Assets.xcassets */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -67,6 +66,7 @@
 		19E775771D52E28C00BC47B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				19E7756C1D52DDE800BC47B7 /* Assets.xcassets */,
 				19E775621D52DDE800BC47B7 /* AppDelegate.swift */,
 				19E7756E1D52DDE800BC47B7 /* LaunchScreen.storyboard */,
 				19E775711D52DDE800BC47B7 /* Info.plist */,
@@ -267,7 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fiddler.sample.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -280,7 +280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fiddler.sample.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -303,6 +303,7 @@
 				19E775761D52DDE800BC47B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
