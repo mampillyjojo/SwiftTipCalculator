@@ -10,14 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var displatText: UILabel!
+    @IBOutlet weak var display: UILabel!
     
-    @IBAction func buttonClick(sender: UIButton) {
+    var userIsInTheMiddleOfTyping : Bool = false
     
-      displatText.text = "Button Clicked"
+    @IBAction func appendDigit(sender: UIButton) {
+    
+        let digit = sender.currentTitle!
+        print("digit = \(digit)")
         
-        
-        // Test
+        if(userIsInTheMiddleOfTyping){
+            display.text = display.text! + digit
+
+        }else{
+            display.text = digit
+            userIsInTheMiddleOfTyping = true
+           
+        }
+
+       
+                // Test
 
     }
    
