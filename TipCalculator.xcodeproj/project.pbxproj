@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19316FE81D59AEFE00F914C0 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19316FE71D59AEFE00F914C0 /* CalculatorBrain.swift */; };
 		19E775631D52DDE800BC47B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E775621D52DDE800BC47B7 /* AppDelegate.swift */; };
 		19E775651D52DDE800BC47B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E775641D52DDE800BC47B7 /* ViewController.swift */; };
 		19E775681D52DDE800BC47B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E775661D52DDE800BC47B7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19316FE71D59AEFE00F914C0 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		19E7755F1D52DDE800BC47B7 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E775621D52DDE800BC47B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19E775641D52DDE800BC47B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				19E775771D52E28C00BC47B7 /* Supporting Files */,
 				19E775641D52DDE800BC47B7 /* ViewController.swift */,
 				19E775661D52DDE800BC47B7 /* Main.storyboard */,
+				19316FE71D59AEFE00F914C0 /* CalculatorBrain.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E7756B1D52DDE800BC47B7 /* TipCalculator.xcdatamodeld in Sources */,
+				19316FE81D59AEFE00F914C0 /* CalculatorBrain.swift in Sources */,
 				19E775651D52DDE800BC47B7 /* ViewController.swift in Sources */,
 				19E775631D52DDE800BC47B7 /* AppDelegate.swift in Sources */,
 			);

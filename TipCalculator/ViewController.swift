@@ -6,6 +6,8 @@
 //  Copyright © 2016 jojo mampilly. All rights reserved.
 //
 
+// Calculator
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -32,8 +34,32 @@ class ViewController: UIViewController {
                 // Calculator
 
     }
+    
+    var displayValue : Double {
+        get{
+            return Double (display.text!)!
+        }
+        
+        set {
+            display.text = String (newValue)
+        }
+    }
+    
+    var brain = CalculatorBrain()
    
 
+    @IBAction func performOperation(sender: UIButton) {
+        
+        brain.setOprand(displayValue)
+        
+        if let mathematicalOpertaion = sender.currentTitle {
+             brain.performOperation(mathematicalOpertaion)
+             displayValue = brain.result
+        }
+        
+        userIsInTheMiddleOfTyping = false
+
+    }
 
 }
 
